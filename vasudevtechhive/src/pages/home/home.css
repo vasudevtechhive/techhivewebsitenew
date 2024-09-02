@@ -1,0 +1,55 @@
+.mainbody
+{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.mainbody .section1
+{
+    width: 85%;
+    margin-top: 30px;
+    display: flex;
+
+}
+.mainbody .section1 .section1_leftsubsection,.section1_rightsubsection
+{
+    width: 50%;
+    height: auto;
+}
+.section1_leftsubsection h1
+{
+font-size: 110px;
+color: white;
+font-weight: 600;
+margin-bottom: 0px;
+}
+.section1_leftsubsection h2
+{
+font-size: 60px;
+color: white;
+font-weight: 500;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.section1_leftsubsection h4
+{
+    color: rgb(177, 171, 171);
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.section1_rightsubsection img{
+    margin-top: 30px;
+    width:90%;
+    height: auto;
+}
+#navbar.scrolled {
+    background: rgba(0, 0, 0, 0.8); 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-top: 0px;
+    padding: 20px;
+    z-index: 1;
+}

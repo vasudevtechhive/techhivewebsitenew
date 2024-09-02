@@ -1,0 +1,125 @@
+.abouttextheadline
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.aboutcontainer
+{
+    height: 100%;
+    z-index:0;
+}
+.abouttextheadline h2
+{
+  color:#D9AB35;
+  margin-bottom: 3px;
+}
+.abouttextheadline h4{
+    color:white;
+    font-weight: 500;
+}
+.aboutsection1
+{
+    width: 85%;
+    margin-top: 50px;
+    display: flex;
+
+}
+.aboutsection1_leftsubsection
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: auto;
+    flex-direction: column;
+}
+.aboutsection1 .aboutsection1_leftsubsection,.aboutsection1_rightsubsection
+{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+
+    align-items: start;
+}
+.aboutsection1_leftsubsection h1
+{
+font-size: 110px;
+color: white;
+font-weight: 600;
+margin-bottom: 0px;
+}
+.aboutsection1_leftsubsection h2
+{
+font-size: 60px;
+color: white;
+font-weight: 500;
+margin-top: 0px;
+margin-bottom: 0px;
+}
+.aboutsection1_leftsubsection h4
+{
+    color: rgb(177, 171, 171);
+    font-weight: 500;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.aboutsection1_rightsubsection img{
+    margin-top: 30px;
+    width:90%;
+    height: auto;
+}
+.aboutsection1_rightsubsection i{
+    color: #D9AB35;
+}
+.aboutsection1_rightsubsection section
+{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-bottom: -20px;
+}
+.aboutsection1_rightsubsection section h3{
+    font-weight: 500;
+    color: white;
+    margin-left:10px;
+}
+.aboutsectionbar
+{
+    width:30vw;
+    background-color: #6e6e6e;
+    height: 5vh;
+    position: relative;
+}
+.aboutsectionbar .aboutsectionsubbar
+{
+    position:absolute;
+    top:10px;
+    left: 10px;
+    max-width: 95%;
+    background-color: #D9AB35;
+    height: 100%;
+}
+.aboutsectionbar .aboutsectionsubbar h4
+{
+    text-align: left;
+    padding: 10px;
+    color: #335f5b;
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -5px;
+
+}
+
+.aboutsection1_rightsubsection .righttextsection{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}

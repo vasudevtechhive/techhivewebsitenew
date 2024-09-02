@@ -1,0 +1,113 @@
+.section2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 0;
+}
+.videobackground
+{
+    top:0;
+
+position: absolute;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+}
+#backgroundvideo
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -2;
+}
+.section2subsection1
+{
+    text-align: center;
+}
+.section2subsection1 h1{
+    color: #D9AB35;
+}
+.section2subsection1 h4{
+    color: white;
+    font-weight: 500;
+}
+.section2subsection2
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    width:85%;
+    height: auto;
+    margin-bottom: 60px;
+}
+.section2box
+{
+    width:400px;
+    height: 260px;
+    background-color: #D9AB35;
+    opacity:0.9;
+
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transform: scaleX(1);
+    position: relative;
+
+}
+.slide{
+
+    background-color:#59716e;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transform-origin: left;
+    transform: scaleX(0);
+    z-index: -1;
+
+}
+.section2box:hover
+{
+    .slide{
+        transition: transform 1s ease;
+        transform: scaleX(1);
+    }
+
+}
+.section2box h1{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 0px;
+    color: white;
+}
+.section2box h2{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+}
+
+.section2box i
+{
+    width:50px;
+    height: 50px;
+    margin-bottom: 0px;
+    color: white;
+}
+.mid
+{
+    background-color:#59716e ;
+}

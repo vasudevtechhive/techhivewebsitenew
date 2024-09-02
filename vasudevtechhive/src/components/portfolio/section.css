@@ -1,0 +1,78 @@
+.portfoliocontainer
+{
+    background-color: #373737;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.videobackgroundportfolio
+{
+    top:0;
+    z-index: -1;
+position: absolute;
+left: 0;
+width: 100%;
+height: 100%;
+overflow: hidden;
+
+}
+#backgroundvideoportfolio
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    opacity:0.4;
+
+}
+.portfoliosection
+{
+    width: 95%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.portfoliosection .portfoliobox
+{
+    display: flex;
+    flex-direction: column;
+    width:30%;
+    height: 400px;
+    margin-bottom: 100px;
+    justify-content: center;
+    align-items: center;
+}
+.portfoliobox .portfoliochild1
+{
+    height:75%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.portfoliochild1 img{
+    width: 100%;
+    height: 100%;
+}
+.portfoliobox .portfoliochild2
+{
+    height:25%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9AB35;
+    color: white;
+}
